@@ -215,4 +215,11 @@ article{
     #ideia-img{
         display: none;
     }
+    .baixo-um{
+        width: 80vw;
+    }
+    .texto-comp{
+        width: 80vw;
+        text-align: center;
+    }
 }

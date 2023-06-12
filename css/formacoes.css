@@ -138,6 +138,13 @@
 #Qyellow{
     background-color: #F9DC5C;}
 @media screen and (max-width: 834px){
+    .titulo-principal .titulo{
+        width: 100%;
+        font-size: 34px;
+    }
+    .titulo-principal{
+        width: auto;
+    }
     .A{
         width: 90vw;
     }
@@ -147,10 +154,11 @@
     @media screen and (max-width: 450px) {
         .titulo-principal .titulo{
             width: 100vw;
-            font-size: 34;
+            font-size: 34px;
         }
         .titulo-principal .subtitulo, .titulo-principal .titulo{
             margin-left: 5vw;
+            width: 80vw;
         }
         .A .left{
             flex-direction: column;
@@ -158,6 +166,24 @@
             justify-content: start;
             margin-left: 5vw;
             gap: 20px;
+        }
+        .titulo{
+            width: auto;
+        }
+        .conteudo{
+            width: 80vw;
+        }
+        .titulo-secundario .titulo, .titulo-secundario .subtitulo{
+            width: auto;
+        }
+        .titulo-secundario .titulo{
+            font-size: 24px;
+        }
+        .titulo-secundario{
+            margin: 0;
+            margin-top: 20vw;
+            margin-left: 5vw;
+            width: 80vw;
         }
     }
 }
