@@ -152,9 +152,9 @@ iframe{
 
 @media screen and (max-width: 850px){
     #inicio .conteudo .titulo{
-        font-size: 20px;
+        font-size: 34px;
         padding: 0;
-        width: 144px;
+        text-align: center;
     }
     #inicio .section{
         margin: 0;
@@ -169,8 +169,8 @@ iframe{
        
     }
     #inicio .conteudo .texto{
-        font-size: 7px;
         padding: 0;
+        text-align: center;
     }
     .pre-cursos{
         width: auto;
@@ -181,7 +181,7 @@ iframe{
     }
     .pre-curso{
         width: 97.02px;
-        height: 56.98px;
+        height: 80px;
         padding: 6px 10px 10px 8px;
         transform: rotate(-0.31deg);
     }
@@ -190,7 +190,7 @@ iframe{
 height: 16.6px;
     }
     .pre-curso .titulo{
-        font-size: 5px;
+        font-size: 10px;
     }
     .pre-curso .texto{
         display: none;
@@ -211,12 +211,15 @@ height: 16.6px;
         margin: 0;
         height: auto;
         margin-bottom: 30px;
+        
     }
     #video .titulo{
-        font-size: 10px;
+        font-size: 20px;
+        text-align: center;
     }
     #video .texto{
-        font-size: 12px;
+        text-align: center;
+        font-size: 15px;
         margin: 4px 0 29px;
     }
     #video .conteudo{
@@ -224,6 +227,7 @@ height: 16.6px;
         flex-direction: column;
         margin: 0;
         width: auto;
+        align-items: center;
     }
     #video .btn-main{
        padding: 0;
@@ -234,18 +238,23 @@ height: 16.6px;
         border-radius: 32.49px;
         height: 34px;
         padding: 14px 17px;
+    
+    }
+    #cursos .conteudo{
+        align-items: center;
+        text-align: center;
     }
     #cursos .conteudo .titulo{
-        font-size: 12px;
-    line-height: 38px;
+        font-size: 20px;
+    
     }
     #cursos .conteudo .subtitulo{
-        font-size: 13px;
-    line-height: 17px;
+        font-size: 17px;
+        margin-bottom: 2vw;
     }
     #cursos .conteudo .texto{
-        font-size: 9px;
-    line-height: 17px;
+        font-size: 13px;
+        margin-top: 25px;
     }
     #cursos .conteudo{
         width: 100%;
@@ -260,14 +269,15 @@ height: 16.6px;
         height: auto;
     }
     .mini-header .titulo{
-        font-size: 6px;
+        font-size: 10px;
     }
     #cursos .imagem-curso{
         width: 22px;
         height: 22px;
     }
     .lista{
-        font-size: 6px;
+        font-size: 9px;
+        
     }
     iframe{
         width: 80vw;
