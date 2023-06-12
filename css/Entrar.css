@@ -1,0 +1,108 @@
+.main{
+    background: linear-gradient(321.1deg, #000814 58.68%, #FFD60A 131.08%);
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+.formulario{    
+    width: 500px;
+    height: 536px;
+    background: rgba(0, 53, 102, 0.4);
+    border: 1px solid #FFBA05;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+margin: 100px;}
+#formulario .titulo{
+    font-weight: 800;
+font-size: 32px;
+color: #FFD60A;
+font-family: 'inter-E-bold',sans-serif;
+margin-bottom: 15px;}
+#formulario .texto{
+    font-weight: 400;
+font-size: 14px;
+color:#fff;
+font-family: 'inter',sans-serif;}
+.main .form{
+    display: flex;
+    flex-direction: column;
+    border: none;}
+.label{
+    font-weight: 700;
+    font-size: 15.4px;
+    color: #FFF;
+    font-family: 'inter-bold',sans-serif;
+    padding: 0 0 4px 0;}
+.caixa{
+    background: #051933;
+    border: 2px solid #2A7AE4;
+    border-radius: 7px;
+    width: 414px;
+    height: 47px;
+    margin-bottom: 15px;
+    color:#fff;}
+.enviar{
+    width: 414px;
+    height: 50px;
+    background: #A3FFBF;
+    border-radius: 24px;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: 'inter-bold',sans-serif;
+    margin: 50px 0 30px;}
+.subtexto{
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    font-family: 'inter',sans-serif;}
+.main .conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0 25px;}
+.enviar:hover{
+    background-color: #CBFFDB;
+    transition: 0.3s;}
+
+
+    @media screen and (max-width: 450px){
+        .caixa{
+            width: 159px;
+    height: 24px;
+    border: 1px solid #2A7AE4;
+    border-radius: 4px;
+        }
+        .enviar{
+            width: 82px;
+            height: 25px;
+            font-size: 6px;
+            margin: 0;
+        }
+        #formulario .titulo{
+            font-size: 10px;
+            margin-bottom: 5px;
+        }
+        #formulario .texto{
+            font-size: 6px;
+        }
+        .label{
+            font-size: 7px;
+        }
+        .subtexto{
+            font-size: 4px;
+        }
+        .formulario{
+            width: 205px;
+    height: 208px;
+        }
+        .main .conteudo{
+            padding: 10px;
+        }
+    }
+
+
+
+
+

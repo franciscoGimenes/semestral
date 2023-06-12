@@ -1,0 +1,198 @@
+/* footer */
+.div-footer{
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+    margin: 0px 200px;}
+.footer{
+    background-color: #000814;
+    min-height: 250px;}
+.divisao-footer{
+    width: 1px;
+    height: 150px;
+    background-color:#8F6B0B ;}
+.redes{
+    display: flex;}
+.rede{
+    margin: 0px 15px;
+}
+.acesso .titulo{
+    font-weight: 900;
+    font-size: 18px;
+    font-family: 'inter-E-bold',sans-serif;
+    padding-bottom:5px}
+.acesso .texto{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'inter',sans-serif;
+    padding: 8px;
+    color:#fff}
+.indicadores .texto{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'inter',sans-serif;
+    padding: 8px;
+}
+.indicadores .titulo{
+    font-weight: 900;
+    font-size: 18px;
+    font-family: 'inter-E-bold',sans-serif;
+    padding-bottom:5px }
+.texto{
+    color: #fff;
+}
+.div-footer .conteudo{display: flex;
+    justify-content: space-around;
+    width: 404px;}
+
+/* header */
+@font-face {font-family: 'inter-semi';
+    src: url(font/Inter-SemiBold.ttf);}
+@font-face {font-family:'inter-bold' ;
+    src: url(font/Inter-Bold.ttf);}
+@font-face {font-family: 'inter';
+    src: url(font/Inter-Regular.ttf);}
+@font-face {font-family: 'inter-E-bold';
+    src: url(font/Inter-ExtraBold.ttf);}
+@font-face {font-family:'Rmono' ;
+    src: url(font/RobotoMono-Bold.ttf);}
+@font-face {font-family: 'Rmono-reg';
+    src: url(font/RobotoMono-Regular.ttf);}
+.uni{
+        width: 140px;}
+.footer .uni{
+        width: 170px;}
+.header-nav{
+    background: #000814;}
+.div-header-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px 150px;
+    padding: 20px 0 ;}
+.logo-pesquisa{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+.btn-header-nav{
+    color: #E5F1FF;
+    font: 600 12px 'inter-semi',sans-serif;}
+.divisao-V{
+    height: 15px;
+    width: 1.5px;
+    background-color: #E5F1FF;
+    margin: 0 -40px 0 -40px;}
+.btn-entrar,.btn-main{
+    color: #000814;
+    background-color: #FFD60A;
+    padding: 15px 30px;
+    border-radius: 40px;
+    font: 700 13.2px 'inter-bold',sans-serif;
+    transition: background  ease 0.3s;}
+.procurar{
+    outline: none;
+    background-color: #000814;
+    color: #E5F1FF;
+    width: 180px;}
+.lupa{
+    width: 20px;
+    height: 20px;
+    background-image: url(lupa.svg.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: transparent;}
+.form{
+    border: 1.5px #828C99 solid;
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+    width: 300px;    }
+#btn-calendario{
+    margin-right: -50px;}
+@media screen and (max-width: 834px){
+    .div-header-nav{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 65px;
+        align-items: center;
+    }
+    .div-footer > .logo {
+        width: 100vw;
+        text-align: center;
+    }
+    .div-footer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 80px;
+    }
+    .divisao-footer{
+        display: none;
+    }
+    .conteudo{
+        width: 100vw;
+        display: flex;
+
+    }
+    .redes{
+        width: 200px;
+    }
+    .acesso{
+        width: 200px;
+        text-align: center;
+    }
+    .indicadores{
+       width:200px ; 
+       text-align: center;
+    }
+    .rede{
+        width: 100px;
+    }
+    @media screen and (max-width: 450px) {
+        .form{
+            width: 200px;
+        }
+    
+        .div-header-nav{
+            text-align: center;
+            margin: 0;
+        }
+        @media screen and (max-width: 410px) {
+           .indicadores .texto, .acesso .texto{
+            font-size: 12px;
+           } 
+           .indicadores, .acesso{
+            width: 40vw;
+           }
+           .logo-pesquisa{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+           }
+           .div-header-nav{
+            gap: 20px;
+           }
+        }
+    }
+}
+.indicadores .texto:hover, .acesso .texto:hover{
+    text-decoration: underline;
+}
+.btn-header-nav:hover{
+    text-decoration: underline;
+}
+.btn-entrar:hover{
+
+    padding: 14px 29px;
+    box-sizing: border-box;
+    color: #fff;
+    border: #FFD60A solid 1px;
+    background-color: transparent ;
+}

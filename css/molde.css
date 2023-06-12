@@ -1,0 +1,218 @@
+@font-face {font-family: 'inter';
+    src: url(fontes/Inter/static/Inter-SemiBold.ttf);}
+
+.face-img{
+    width: auto;
+    height: 620px;
+    border-bottom: 18px solid #FFC300;
+    background-color: #000814;
+    text-align: center;
+}
+.curso{
+
+    font-family: 'inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 26px;
+    color: #167BF7;
+}
+.area, .titulo-prog{
+    font-family: 'inter',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+}
+.titulos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 56px;
+}
+.progamacao{
+    margin-top: 50px;
+}
+.titulo-prog{
+    margin-bottom: -10px;
+    margin-left: 100px;
+}
+.texto-desc{
+    font-family: 'inter',sans-serif;
+    margin-top: 40px;
+    width: 792px;
+}
+#lista-um{
+    font-family: 'inter', sans-serif;
+    margin-left: 100px;
+    width: auto;
+    margin-top: 25px;
+}
+.lista-um{
+    width: 300px;
+    border-bottom: 0.5px solid gray;
+    padding: 15px 0;
+}
+p{
+    font: 400 15px 'inter',sans-serif;
+}
+.texto-infos{
+    display: flex;
+    flex-direction: column;
+    
+}
+.main-cima, .bloco{
+    display: flex;
+    flex-direction: row;
+}
+.main-cima{
+    gap: 120px;
+    margin-top: 70px;
+    align-items: center;
+}
+.bloco{
+    padding: 25px;
+    width: 300px;
+}
+.infos{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+}
+.mini-titulo{
+    font: 600 20px 'inter',sans-serif;
+    padding-bottom: 5px;
+}
+.mini-infos{
+    border-top: 2px solid #FFC300;
+    font: 100 15px 'inter',sans-serif;
+    padding-top: 5px;
+}
+.icon{
+    width: 56px;
+    height: auto;
+}
+.matricula{
+    margin-top: 50px;
+    color: #000814;
+    background-color: #FFD60A;
+    padding: 15px 30px;
+    border-radius: 40px;
+    font: 700 13px 'inter',sans-serif;
+}
+article{
+    margin-left: -100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mini-sub{
+    font: 500 20px 'inter',sans-serif;
+}
+.texto-comp{
+    font: 400 15px 'inter',sans-serif;
+    width: 400px;
+}
+#ideia-img{
+    width: 418px;
+}
+.main-baixo{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+.baixo-um{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.baixo-dois{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.lista-dois{
+    font: 700 15px 'inter',sans-serif;
+    padding: 5px;
+    color: rgb(78, 78, 78);
+}
+.container-baixo{
+    display: flex;
+    align-items: start;
+    gap: 140px;
+}
+#textos{
+    border-left: 2px solid #FFC300;
+    margin-left: 100px;
+    padding-left: 20px;
+}
+
+    /*Tablet*/
+@media screen and (max-width: 834px){
+    .face-img{
+        width: 100vw;
+        height: auto;
+        border-bottom: #FFC300 5px solid;
+    }
+    .main-cima, .bloco{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    #textos{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+
+    }
+    .titulos{
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .texto-desc{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 80vw;
+        text-align: justify;
+    }
+    .progamacao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bloco{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .titulo-prog{
+        margin: 0;
+    }
+    #lista-um{
+        margin: 0;
+    }
+    article{
+        margin: 0;
+    }
+    .main-baixo, .container-baixo{
+        flex-direction: column;
+        align-items: center;
+    }
+    .container-baixo{
+        gap: 70px;
+    }
+    .baixo-dois{
+        text-align: center;
+    }
+    #ideia-img{
+        display: none;
+    }
+}

@@ -1,0 +1,299 @@
+
+/* inicio */
+#red{
+    color: #FF2C55;}
+#blue{
+    color:#3F8EFC}
+#orange{
+   color: #FF9505}
+#yellow{
+    color:#F9DC5C}
+.conteiner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;}
+#inicio{
+    background: radial-gradient(83.67% 83.67% at 15.03% 104.39%, #FFBA05 0%, #003566 49.25%, #000814 97.46%);
+    height: 757px;
+    padding-bottom: 40px;}
+.pre-curso{
+    width: 200px;
+    height: 205px;
+    background: #001D3D;
+    border: 1px solid #FFD60A;
+    box-shadow: 5px 12px 12px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    color: #fff;
+    padding: 17px 10px 10px 17px;
+    margin: 10px;}
+.imagem-curso{
+    width: 40px;
+    height: 40px;}
+.pre-cursos{
+    display: flex;
+    width: 800px;
+    flex-wrap: wrap;}
+.pre-curso .titulo{
+    font-weight: 700;
+    font-size: 13px;
+    color: #C7F9CC;
+    font-family: 'inter-bold',sans-serif;
+    padding-top: 10px;}
+.pre-curso .texto{
+    font-weight: 400;
+    font-size: 12px;
+    font-family: 'inter',sans-serif;
+    padding-top: 15px;}
+.section .conteudo{
+    color:#fff;  
+    width: 399px;}
+.section .conteudo .titulo{
+    font-weight: 800;
+    font-size: 56px;
+    font-family: 'inter-E-bold',sans-serif;
+    padding: 45px 0 0 0;}
+.section .conteudo .texto{
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'inter',sans-serif;
+    padding: 50px 0;}
+.section{
+    margin-left: 100px;}
+#inicio .imagem{
+    margin-right: 100px;}
+/* video */
+#video .titulo{
+    font-weight: 800;
+font-size: 40px;
+color: #093366;
+font-family: 'inter-E-bold',sans-serif;}
+#video .texto{
+    font-weight: 400;
+font-size: 18px;
+color: #093366;
+font-family: 'inter',sans-serif;
+margin: 50px 0;}
+#video{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 45vw;
+    margin: 0px 40px 0 20px;}
+#video .conteudo{
+    width: 487px;  }
+/* cursos */
+@font-face {font-family:'Rmono' ;
+    src: url(font/RobotoMono-Bold.ttf);}
+.mini-header #green{
+    color:#C7F9CC;
+    width: 190px;}
+.subtitulo{
+    font-weight: 700;
+font-size: 15px;
+font-family: 'Rmono',sans-serif;
+color:#fff;}
+#cursos{
+    background: radial-gradient(74.03% 89.95% at 3.54% 8.96%, #FFBA05 0%, #003566 43.97%, #000814 100%) ;
+    height: 1306.38px;
+    padding-top: 100px;}
+#cursos .conteudo .titulo{
+    font-weight: 800;
+font-size: 40px;
+font-family: 'inter-E-bold',sans-serif;
+color: #FFf;}
+#cursos .conteudo .texto{
+    font-weight: 400;
+font-size: 18px;
+font-family: 'inter',sans-serif ;
+color:#fff;}
+#cursos .conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 484.26px;}
+#cursos{
+    display: flex;
+    flex-direction: column;}
+.mini-header .titulo{
+    font-weight: 700;
+font-size: 13px;
+color: #F9DC5C;
+font-family: 'inter-bold',sans-serif;
+width: 152px;
+padding: 5px 20px;}
+.lista{
+    text-decoration: underline;
+    color: #E5F1FF;    
+    padding: 7px;
+    font-family: 'inter',sans-serif;
+    font-weight: 400;
+font-size: 14px;}
+.listagem{
+    display: flex;
+    flex-direction: column;
+justify-content: left;}
+.mini-header{
+    display: flex;
+    align-items: center;
+    padding-bottom: 14px ;}
+.cursos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    justify-content: center;}
+.curso{
+    padding: 15px 15px 100px;}
+iframe{
+    border: 21px solid #FFFFFF;
+    filter: drop-shadow(4px 4px 69px rgba(0, 0, 0, 0.25));
+    border-radius: 34px;
+
+}
+
+@media screen and (max-width: 850px){
+    #inicio .conteudo .titulo{
+        font-size: 20px;
+        padding: 0;
+        width: 144px;
+    }
+    #inicio .section{
+        margin: 0;
+    }
+    #inicio .section .conteudo{
+        justify-content: center;
+        display: flex;
+        margin: 0;
+       width: auto;
+       flex-direction: column;
+       align-items: center;
+       
+    }
+    #inicio .conteudo .texto{
+        font-size: 7px;
+        padding: 0;
+    }
+    .pre-cursos{
+        width: auto;
+        margin: 15px 50px 75px;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .pre-curso{
+        width: 97.02px;
+        height: 56.98px;
+        padding: 6px 10px 10px 8px;
+        transform: rotate(-0.31deg);
+    }
+    .imagem-curso{
+        width: 18.21px;
+height: 16.6px;
+    }
+    .pre-curso .titulo{
+        font-size: 5px;
+    }
+    .pre-curso .texto{
+        display: none;
+    }
+    #inicio .imagem{
+        margin: 0;
+        display: none;
+    }
+    .tchau{
+        display: none;
+    }
+    #inicio{
+        height: auto;
+        margin-bottom: 32px;
+    }
+    #video{
+        flex-direction: column;
+        margin: 0;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    #video .titulo{
+        font-size: 10px;
+    }
+    #video .texto{
+        font-size: 12px;
+        margin: 4px 0 29px;
+    }
+    #video .conteudo{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        width: auto;
+    }
+    #video .btn-main{
+       padding: 0;
+       width: 82px;
+       font-size: 5px;
+       background: #FFD60A;
+        box-shadow: 0px 5px 10px rgba(38, 94, 142, 0.2);
+        border-radius: 32.49px;
+        height: 34px;
+        padding: 14px 17px;
+    }
+    #cursos .conteudo .titulo{
+        font-size: 12px;
+    line-height: 38px;
+    }
+    #cursos .conteudo .subtitulo{
+        font-size: 13px;
+    line-height: 17px;
+    }
+    #cursos .conteudo .texto{
+        font-size: 9px;
+    line-height: 17px;
+    }
+    #cursos .conteudo{
+        width: 100%;
+        padding: 0 30px ;
+    }
+    .cursos{
+        flex-wrap: wrap ;
+        width: 100%;
+        margin: 46px 0 21px;
+    }
+    #cursos{
+        height: auto;
+    }
+    .mini-header .titulo{
+        font-size: 6px;
+    }
+    #cursos .imagem-curso{
+        width: 22px;
+        height: 22px;
+    }
+    .lista{
+        font-size: 6px;
+    }
+    iframe{
+        width: 80vw;
+        
+    }
+    @media screen and (max-width: 600px){
+        iframe{
+            height: 200px;
+        }
+        
+    }
+
+}
+.pre-curso{
+    transition: background  ease 0.3s;
+}
+.pre-curso:hover{
+    background-color: #003566;
+}
+.btn-main:hover{
+    transition: background  ease 0.3s;
+    padding: 13px 28px;
+    background-color: transparent;
+    border: #FFBA05 2px solid;
+}
+
+
+
+    

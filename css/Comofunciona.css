@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+
+.comoFunciona {
+    width: 100%;
+}
+
+.textoAcoes {
+    font: 52 1.5rem 'Open Sans', sans-serif;
+    color: #4A535A;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+
+/* imagem1 */
+.div1 {
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-left: 140px;
+}
+
+.div1 .img_comoFunciona {
+    width: 45vw;
+    border-radius: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+
+
+}
+
+.div1 .texto_comoFunciona {
+    color: #4A535A;
+    font: 300 'Open Sans', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 19px;
+    text-justify: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+/* fim do imagem1 */
+
+
+
+/* imagem2 */
+.div2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+    margin-right: 130px;
+}
+
+.div2 .img_cursos {
+    width: 45vw;
+    border-radius: 10px;
+    margin-left: 100px;
+
+
+}
+
+.div2 .texto_cursos {
+    color: #4A535A;
+    font: 300 'Open Sans', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 19px;
+    text-justify: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+/* fim do imagem2 */
+
+
+
+
+/* informações no geral */
+.informacoes {
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+    background: #ffffff;
+    box-shadow: 0px 13px 18px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    justify-content: center;
+}
+
+/* saude */
+.saude {
+    display: flex;
+    flex-direction: column;
+    border-top: 8px solid #57CC99;
+    padding: 30px 0 0 15px;
+
+}
+
+.img_saude {
+    width: 4vw; 
+    padding-bottom: 10px;
+}
+
+.titulo_texto .titulo_saude {
+
+    font-size: 16px;
+    color: #57CC99;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 20px;
+}
+
+.titulo_texto .texto_saude {
+
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+/* liderança */
+
+.img_lideranca{
+    width: 55px;
+    height: 68px; 
+    padding-bottom: 10px;
+}
+
+.lideranca {
+    display: flex;
+    flex-direction: column;
+    border-top: 8px solid #7D1128;
+    padding: 30px 0 0 25px;
+}
+
+.titulo_texto .titulo_lideranca {
+    font-size: 16px;
+    color: #7D1128;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 48px;
+}
+
+.titulo_texto .texto_lideranca {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+/* tecnologia */
+
+.img_tecnologia {
+    width: 55px;
+    height: 68px; 
+    padding-bottom: 10px;
+}
+
+.tecnologia {
+    display: flex;
+    flex-direction: column;
+    border-top: 8px solid #3B28CC;
+    padding: 30px 0 0 25px;
+}
+
+.titulo_texto .titulo_tecnologia {
+    font-size: 16px;
+    color: #3B28CC;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 25px;
+}
+
+.titulo_texto .texto_tecnologia {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 30px;
+}
+
+
+
+
+
+/* gestão */
+
+.img_gestao {
+    width: 55px;
+    height: 68px; 
+    padding-bottom: 10px;
+}
+
+.gestao {
+    display: flex;
+    flex-direction: column;
+    border-top: 8px solid #CC5803;
+    padding: 30px 0 0 25px;
+}
+
+.titulo_texto .titulo_gestao {
+    font-size: 16px;
+    color: #CC5803;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 40px;
+}
+
+.titulo_texto .texto_gestao {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 20px;
+}
+
+
+/* docentes e instrutores */
+
+.img_docente {
+    width: 55px;
+    height: 68px; 
+    padding-bottom: 10px;
+}
+
+.docente {
+    display: flex;
+    flex-direction: column;
+    border-top: 8px solid #F9DC5C;
+    padding: 30px 0 0 25px;
+}
+
+.titulo_texto .titulo_docente {
+    font-size: 16px;
+    color: #F9DC5C;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 38px;
+}
+
+.titulo_texto .texto_docente {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 20px;
+}
+
+/* FIM docentes e intrutores */
+
+
+
+
+/* imagem3 */
+
+.div3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+    margin-right: 130px;
+}
+
+.div3 .imagem3 {
+    width: 45vw;
+    border-radius: 10px;
+    margin-left: 100px;
+
+
+}
+
+.div3 .texto_imagem3 {
+    color: #4A535A;
+    font: 300 'Open Sans', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 19px;
+    text-justify: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* fim do imagem3 */
+
+
+/* imagem4 */
+
+.div4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+    margin-right: 130px;
+}
+
+.div4 .imagem4 {
+    width: 45vw;
+    border-radius: 10px;
+    margin-left: 100px;
+
+
+}
+
+.div4 .texto_imagem4 {
+    color: #4A535A;
+    font: 300 'Open Sans', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 19px;
+    text-justify: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+/* Fim da imagem4 */
+
+
+
+
+/* imagem5 */
+.div5 {
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-left: 140px;
+    margin-top: 90px;
+}
+
+.div5 .imagem5 {
+    width: 45vw;
+    border-radius: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+
+}
+
+.div5 .texto_imagem5 {
+    color: #4A535A;
+    font: 300 'Open Sans', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 19px;
+    text-justify: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.ultimo_texto {
+    margin-top: 200px;
+    color: #4A535A;
+    font: 300 'Open Sans', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.info1, .info2, .info3{
+    display: flex;
+    flex-direction: row;
+}
+
+
+@media screen and (max-width: 850px) {
+    
+    .textoAcoes{
+        font-size: 7.8px;
+        margin: 25px 0 10px
+    }
+
+    .div1, .div2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+    .div1 .img_comoFunciona, .div2 .img_cursos{
+        width: 150px;
+        height: 100px;
+        margin: 0;
+      
+    }
+    .div1 .texto_comoFunciona, .div2 .texto_cursos{
+        font-size: 10px;
+    }
+
+   .div1{
+    margin-bottom: 12px;
+   }
+   .info1, .info2, .info3{
+    display: flex;
+    justify-content: center;
+    height: 98px;
+   }
+   .informacoes{
+    flex-direction: column;
+    margin: 40px 0 10px;
+    padding: 0 0 20px;
+   }
+   .saude{
+    margin: 0;
+   }
+   .titulo_texto .texto_saude, .titulo_texto .texto_lideranca, .titulo_texto .texto_gestao, .titulo_texto .texto_tecnologia, .titulo_texto .texto_docente{
+    font-size: 6px;
+   }
+
+   .titulo_texto .titulo_saude, .titulo_texto .titulo_lideranca, .titulo_texto .titulo_gestao, .titulo_texto .titulo_tecnologia, .titulo_texto .titulo_docente{
+    font-size: 7px;
+    padding: 0 0 5px;
+   }
+
+   .img_saude, .img_lideranca, .img_gestao, .img_tecnologia, .img_docente{
+    width: 20px;
+height: 22.86px;
+border-radius: 6px;
+
+   }
+   .lideranca{
+    border-top: 5px solid #7D1128;
+    padding: 9px 10px 0px;
+
+   }
+   .saude{
+    border-top: 5px solid #57CC99;
+    padding: 6px 10px 0px;  
+   }
+   .gestao{
+    border-top: 5px solid #CC5803;
+    padding: 11px 10px 0px;
+   }
+   .tecnologia{
+    border-top: 5px solid #3B28CC;
+    padding: 13px 10px 0px;
+   }
+   .docente{
+    border-top: 5px solid #F9DC5C;
+    padding: 16px 10px 0px;
+
+   }
+   .saude, .lideranca, .gestao, .tecnologia, .docente{
+    width: 40vw;
+   }
+
+   .div3{
+    display: none;
+   }
+
+   .div4 .texto_imagem4, .div5 .texto_imagem5{
+    font-size: 9px;
+   }
+
+   .div4, .div5{
+    margin: 50px 0 0 ;
+   }
+
+   .div4 .imagem4, .div5 .imagem5{
+    margin: 0;
+   }
+
+   .ultimo_texto{
+    font-size: 9px;
+    margin: 38px 0 ;
+    line-height: 19px;
+
+   }
+   .img_saude{
+    padding: 0 0 10px;
+   }
+
+
+}
+
+
+
+
+
