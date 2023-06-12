@@ -217,9 +217,8 @@ body {
         /* section.signin */
         
         
-            box-sizing: border-box;
         
-            position: absolute;
+        
             width: 300px;
             height: 370px;
             left: calc(50% - 294px/2);
