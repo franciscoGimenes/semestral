@@ -464,7 +464,10 @@ border-radius: 6px;
    .img_saude{
     padding: 0 0 10px;
    }
-
+   .texto_comoFunciona, .texto_cursos{
+    width: 40vw;
+    text-align: center;
+   }
 
 }
 
