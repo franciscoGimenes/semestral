@@ -19,11 +19,12 @@ body {
     height: 420px;
     left: calc(50% - 620px/2);
     top: 378px;
+    text-align: center;
 
     background: rgba(0, 53, 102, 0.4);
     border: 1px solid #FFBA05;
     border-radius: 6px;
-    padding: 50px ;
+    padding: 50px;
 
 
 }
@@ -207,7 +208,14 @@ body {
     order: 2;
     flex-grow: 0;
 }
-
+.email{
+    text-align: center;
+}
+.esqueceuSenha{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 @media screen and (max-width: 850px) {
 
