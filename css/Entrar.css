@@ -1,4 +1,4 @@
-.main{
+main{
     background: linear-gradient(321.1deg, #000814 58.68%, #FFD60A 131.08%);
     display: flex;
     justify-content: center;
@@ -68,37 +68,23 @@ font-family: 'inter',sans-serif;}
 
 
     @media screen and (max-width: 450px){
-        .caixa{
-            width: 159px;
-    height: 24px;
-    border: 1px solid #2A7AE4;
-    border-radius: 4px;
-        }
-        .enviar{
-            width: 82px;
-            height: 25px;
-            font-size: 6px;
-            margin: 0;
-        }
-        #formulario .titulo{
-            font-size: 10px;
-            margin-bottom: 5px;
-        }
-        #formulario .texto{
-            font-size: 6px;
+        .formulario{
+            width: 95vw;
+            height: auto;
+            padding-bottom: 25px;
         }
         .label{
-            font-size: 7px;
+            text-align: center;
         }
-        .subtexto{
-            font-size: 4px;
+        .caixa{
+            width: 70vw;
         }
-        .formulario{
-            width: 205px;
-    height: 208px;
+        #formulario .titulo{
+            width: 70vw;
+            text-align: center;
         }
-        .main .conteudo{
-            padding: 10px;
+        .enviar{
+            width: 60vw;
         }
     }
 
