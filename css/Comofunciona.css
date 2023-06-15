@@ -27,8 +27,7 @@
 .div1 .img_comoFunciona {
     width: 45vw;
     border-radius: 10px;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-right: 140px;
 
 
 }
@@ -41,6 +40,7 @@
     text-justify: auto;
     display: flex;
     flex-direction: column;
+    margin-right: 66px;
 
 }
 /* fim do imagem1 */
@@ -53,13 +53,13 @@
     justify-content: space-around;
     align-items: center;
     margin-top: 80px;
-    margin-right: 130px;
+    margin-right: 140px;
 }
 
 .div2 .img_cursos {
     width: 45vw;
     border-radius: 10px;
-    margin-left: 100px;
+    margin-left: 140px;
 
 
 }
@@ -72,6 +72,7 @@
     text-justify: auto;
     display: flex;
     flex-direction: column;
+    margin-left: 70px;
 
 }
 /* fim do imagem2 */
@@ -253,7 +254,8 @@
     justify-content: space-around;
     align-items: center;
     margin-top: 80px;
-    margin-right: 130px;
+    margin-bottom: 100px;
+    
 }
 
 .div3 .imagem3 {
@@ -272,6 +274,8 @@
     text-justify: auto;
     display: flex;
     flex-direction: column;
+    margin-right: 260px;
+    
 
 }
 
@@ -285,13 +289,13 @@
     justify-content: space-around;
     align-items: center;
     margin-top: 80px;
-    margin-right: 130px;
+    
 }
 
 .div4 .imagem4 {
     width: 45vw;
     border-radius: 10px;
-    margin-left: 100px;
+    margin-left: 98px;
 
 
 }
@@ -304,6 +308,7 @@
     text-justify: auto;
     display: flex;
     flex-direction: column;
+    margin-right: 200px;
 
 }
 /* Fim da imagem4 */
@@ -317,15 +322,15 @@
     justify-content: space-around;
     flex-direction: row-reverse;
     align-items: center;
-    margin-left: 140px;
+    margin-left: 190px;
     margin-top: 90px;
 }
 
 .div5 .imagem5 {
     width: 45vw;
     border-radius: 10px;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 40px;
+    margin-right: 90px;
     
 
 }
@@ -338,6 +343,7 @@
     text-justify: auto;
     display: flex;
     flex-direction: column;
+    
 
 }
 

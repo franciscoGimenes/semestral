@@ -14,7 +14,7 @@
     align-items: center;}
 #inicio{
     background: radial-gradient(83.67% 83.67% at 15.03% 104.39%, #FFBA05 0%, #003566 49.25%, #000814 97.46%);
-    height: 757px;
+    height: 820px;
     padding-bottom: 40px;}
 .pre-curso{
     width: 200px;
@@ -33,17 +33,31 @@
     display: flex;
     width: 800px;
     flex-wrap: wrap;}
-.pre-curso .titulo{
+.pre-curso {
     font-weight: 700;
     font-size: 13px;
     color: #C7F9CC;
     font-family: 'inter-bold',sans-serif;
     padding-top: 10px;}
-.pre-curso .texto{
+.titulo {
+        font-weight: 700;
+    font-size: 13px;
+    color: #C7F9CC;
+    font-family: 'inter-bold',sans-serif;
+    padding-top: 10px;
+    margin-bottom: 10px;}
+.pre-curso {
     font-weight: 400;
     font-size: 12px;
     font-family: 'inter',sans-serif;
     padding-top: 15px;}
+.texto {
+        font-weight: 400;
+    font-size: 12px;
+    font-family: 'inter',sans-serif;
+    padding-top: 15px;
+    margin-bottom: 30px;
+    }
 .section .conteudo{
     color:#fff;  
     width: 399px;}
@@ -91,7 +105,9 @@ margin: 50px 0;}
     font-weight: 700;
 font-size: 15px;
 font-family: 'Rmono',sans-serif;
-color:#fff;}
+color:#fff;
+margin-bottom: 5px;}
+
 #cursos{
     background: radial-gradient(74.03% 89.95% at 3.54% 8.96%, #FFBA05 0%, #003566 43.97%, #000814 100%) ;
     height: 1306.38px;
