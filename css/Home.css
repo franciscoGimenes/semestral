@@ -306,7 +306,7 @@ height: 16.6px;
         iframe{
             height: 200px;
         }
-        
+       
     }
 
 }
@@ -326,9 +326,9 @@ height: 16.6px;
 .btn-conteiner {
     display: flex;
     justify-content: center;
-    --color-text: #ffffff;
-    --color-background: ##FF9505;
-    --color-outline: #FF9505;
+    --color-text: black;
+    --color-background: #FFD60A;
+    --color-outline: #FFD60A;
     --color-shadow: #00000080;
   }
   
@@ -340,11 +340,11 @@ height: 16.6px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 30px;
-    color: var(--color-text);
-    background: #FF9505;
+    color: black;
+    background: #FFD60A;
     transition: 1s;
     border-radius: 100px;
-    box-shadow: 0 0 0.2em 0 #FF9505;
+    box-shadow: 0 0 0.2em 0 #FFD60A;
   }
   
   .btn-content:hover, .btn-content:focus {
@@ -353,7 +353,7 @@ height: 16.6px;
     animation: btn-content 1s;
     outline: 0.1em solid transparent;
     outline-offset: 0.2em;
-    box-shadow: 0 0 0.4em 0 #FF9505;
+    box-shadow: 0 0 0.4em 0 #FFD60A;
   }
   
   .btn-content .icon-arrow {
@@ -402,31 +402,34 @@ height: 16.6px;
   /* SVG animations */
   @keyframes color_anim {
     0% {
-      fill: white;
+      fill: black;
     }
   
     50% {
-      fill: #FF9505;
+      fill: #FFD60A;
     }
   
     100% {
-      fill: white;
+      fill: black;
     }
   }
   
   /* Button animations */
   @-webkit-keyframes btn-content {
     0% {
-      outline: 0.2em solid #FF9505;
+      outline: 0.2em solid #FFD60A;
       outline-offset: 0;
     }
   }
   
   @keyframes btn-content {
     0% {
-      outline: 0.2em solid #FF9505;
+      outline: 0.2em solid #FFD60A;
       outline-offset: 0;
     }
   }     
-
-    
+#video-container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
