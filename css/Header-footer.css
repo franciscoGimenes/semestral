@@ -151,6 +151,9 @@
        width:200px ; 
        text-align: center;
     }
+    .indicadores .titulo, .acesso .titulo{
+        color: #fff;
+    }
     .rede{
         width: 100px;
     }

@@ -171,6 +171,10 @@ iframe{
         font-size: 34px;
         padding: 0;
         text-align: center;
+        color: #fff;
+    }
+    .diminuir{
+        width: 201px;
     }
     #inicio .section{
         margin: 0;

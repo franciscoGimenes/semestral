@@ -368,7 +368,7 @@
     
     .textoAcoes{
         font-size: 7.8px;
-        margin: 25px 0 10px
+        margin: 25px 0;
     }
 
     .div1, .div2{
@@ -376,7 +376,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin: 0;
+        margin: 10px 0;
     }
     .div1 .img_comoFunciona, .div2 .img_cursos{
         width: 150px;
@@ -386,15 +386,17 @@
     }
     .div1 .texto_comoFunciona, .div2 .texto_cursos{
         font-size: 10px;
+        margin: 0;
     }
 
    .div1{
-    margin-bottom: 12px;
+    margin-bottom: 25px;
    }
    .info1, .info2, .info3{
     display: flex;
     justify-content: center;
     height: 98px;
+    margin: 10px 0;
    }
    .informacoes{
     flex-direction: column;
@@ -405,23 +407,23 @@
     margin: 0;
    }
    .titulo_texto .texto_saude, .titulo_texto .texto_lideranca, .titulo_texto .texto_gestao, .titulo_texto .texto_tecnologia, .titulo_texto .texto_docente{
-    font-size: 6px;
+    font-size: 9px;
    }
 
    .titulo_texto .titulo_saude, .titulo_texto .titulo_lideranca, .titulo_texto .titulo_gestao, .titulo_texto .titulo_tecnologia, .titulo_texto .titulo_docente{
-    font-size: 7px;
+    font-size: 9px;
     padding: 0 0 5px;
    }
 
    .img_saude, .img_lideranca, .img_gestao, .img_tecnologia, .img_docente{
     width: 20px;
-height: 22.86px;
-border-radius: 6px;
+    height: 22.86px;
+    border-radius: 6px;
 
    }
    .lideranca{
     border-top: 5px solid #7D1128;
-    padding: 9px 10px 0px;
+    padding: 6px 10px 0px;
 
    }
    .saude{
@@ -430,15 +432,15 @@ border-radius: 6px;
    }
    .gestao{
     border-top: 5px solid #CC5803;
-    padding: 11px 10px 0px;
+    padding: 6px 10px 0px;
    }
    .tecnologia{
     border-top: 5px solid #3B28CC;
-    padding: 13px 10px 0px;
+    padding: 6px 10px 0px;
    }
    .docente{
     border-top: 5px solid #F9DC5C;
-    padding: 16px 10px 0px;
+    padding: 6px 10px 0px;
 
    }
    .saude, .lideranca, .gestao, .tecnologia, .docente{
@@ -451,6 +453,7 @@ border-radius: 6px;
 
    .div4 .texto_imagem4, .div5 .texto_imagem5{
     font-size: 9px;
+    margin: 0;
    }
 
    .div4, .div5{
